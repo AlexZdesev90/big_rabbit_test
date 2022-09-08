@@ -135,6 +135,11 @@
     width: 120px;
   }
 
+  .screen {
+    width: 360px;
+  }
+
+
   .h2__review {
     font-size: 30px;
     line-height: 34px;
@@ -268,6 +273,10 @@
     width: 100px;
   }
 
+  .screen {
+    width: 360px;
+  }
+
   .h2__review {
     font-size: 20px;
   }
@@ -332,11 +341,6 @@
     line-height: 40px;
   }
 
-  .light_blue_h2 h2 {
-    text-align: center;
-    font-size: 20px;
-    line-height: 30px;
-  }
   .footer__text {
     margin-left: auto;
     margin-right: auto;

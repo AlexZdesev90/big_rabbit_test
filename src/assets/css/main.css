@@ -737,7 +737,6 @@ li {
   margin: 30px 30px 50px;
 }
 
-
 /* back-to-top button */
 .back-to-top {
   position: fixed;
@@ -745,34 +744,34 @@ li {
   bottom: 10px;
   width: 80px;
   height: 80px;
-  background-color:  orange;
+  background-color: orange;
   border-radius: 50%;
 }
 
 .back-to-top:focus,
 .back-to-top:hover {
   background-color: transparent;
-  border: 1px solid white ;
+  border: 1px solid white;
 }
 
 .back-to-top::before,
 .back-to-top::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%)
-} 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .back-to-top::before {
   width: 5px;
   height: 25px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background-color: #fff ;
+  background-color: #fff;
 }
 
-.back-to-top::after{
+.back-to-top::after {
   width: 15px;
   height: 15px;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -781,7 +780,8 @@ li {
 }
 
 /* аккордион тест */
-.accordion {}
+.accordion {
+}
 
 .accordion-item {
   margin-bottom: 20px;
@@ -791,10 +791,9 @@ li {
   display: block;
   background-color: blue;
 }
-  .accordion-item--active .accordion-item__trigger{
-    background-color: blueviolet;
-  }
-
+.accordion-item--active .accordion-item__trigger {
+  background-color: blueviolet;
+}
 
 .accordion-item__trigger {
   padding: 20px;
@@ -807,7 +806,6 @@ li {
   border-top: none;
   display: none;
 }
-
 
 @media screen and (max-width: 1199px) {
   .container {
@@ -1039,22 +1037,21 @@ li {
   }
 
   .about_header {
-      width: 540px;
+    width: 540px;
   }
 
-.about__p {
+  .about__p {
     width: 540px;
-}
+  }
 
-.statistics {
+  .statistics {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 28px 28px;
-}
+  }
 
-  .statistics div{
+  .statistics div {
     width: 240px;
     height: 30px;
-    
   }
 
   .bonus_button p {
@@ -1062,30 +1059,29 @@ li {
   }
 
   .table {
-      align-items: center;
+    align-items: center;
   }
 
   .table__element {
     padding: 5px;
   }
 
-  .table__element .table__text{
-      font-size: 15px;;
+  .table__element .table__text {
+    font-size: 15px;
   }
 
-  .table__element .table__window{
+  .table__element .table__window {
     width: 60px;
   }
 
   .button_play {
-      width: 100px;
-      margin: 0;
+    width: 100px;
+    margin: 0;
   }
 
-.h2__review {
+  .h2__review {
     font-size: 20px;
-}
-
+  }
 
   .cells {
     grid-template-rows: 1fr 1fr 1fr;
@@ -1093,20 +1089,20 @@ li {
   }
 
   .cell {
-      width: 100px;
-      height: 70px;
+    width: 100px;
+    height: 70px;
   }
   .frame_bonus_container {
     margin-bottom: 0px;
   }
 
   .big__image {
-      width: 540px;
+    width: 540px;
   }
 
   .slider p {
-      width: 540px;
-      padding-bottom: 50px;
+    width: 540px;
+    padding-bottom: 50px;
   }
 
   .box__big__image {
@@ -1117,37 +1113,36 @@ li {
   }
 
   .faq {
-      font-size: 30px;
+    font-size: 30px;
   }
-.box-big-image {
+  .box-big-image {
     margin: 20px auto;
-}
+  }
   .big__image__two {
-
-      width: 540px;
+    width: 540px;
   }
 
-.info_two h2 {
+  .info_two h2 {
     margin: 0px auto;
-    width:500px;
-}
+    width: 500px;
+  }
 
-  .table__element .two{
+  .table__element .two {
     text-align: center;
   }
 
-.blue h2{
+  .blue h2 {
     text-align: center;
     font-size: 20px;
     line-height: 30px;
-}
-.table__element .btn {
-width: 100px;
-} 
+  }
+  .table__element .btn {
+    width: 100px;
+  }
 
-.list_grid {
+  .list_grid {
     line-height: 40px;
-}
+  }
 
   .light_blue_h2 h2 {
     text-align: center;
@@ -1167,26 +1162,23 @@ width: 100px;
     margin: auto;
   }
 
-
-
   .header-content {
     width: 220px;
   }
 
   .header .button_play {
     font-size: 15px;
-    width:100px;
+    width: 100px;
   }
 
-  .jackpot p  {
-    text-align:center;
+  .jackpot p {
+    text-align: center;
     margin-left: 10px;
-
   }
   .jackpot img {
-  width: 30px;
-  height: 24px;
-}
+    width: 30px;
+    height: 24px;
+  }
   .logo_container img {
     width: 100px;
   }
@@ -1196,8 +1188,8 @@ width: 100px;
     grid-template-columns: 1fr;
   }
 
-  .button_box{
-    width:280px;
+  .button_box {
+    width: 280px;
   }
 
   .carrot__button__green {
@@ -1214,13 +1206,13 @@ width: 100px;
   }
 
   .text__stars {
-  width:250px;
+    width: 250px;
   }
 
-  .left_carrot{
+  .left_carrot {
     display: none;
   }
-  .right_carrot{
+  .right_carrot {
     display: none;
   }
 
@@ -1230,9 +1222,9 @@ width: 100px;
     width: 170px;
   }
 
-  .footer__text p{
+  .footer__text p {
     margin: 0 auto;
-    width:200px;
+    width: 200px;
   }
 
   .statistics {
@@ -1252,30 +1244,30 @@ width: 100px;
   }
 
   .frame_bonus_container {
-    width:100px;
+    width: 100px;
   }
   .frame img {
     width: 100px;
     height: 70px;
   }
 
-  .about_header{
+  .about_header {
     width: 280px;
   }
 
-.about__p {
-  font-size: 12px;
-  width: 270px;
-  height: 120px;
-  overflow:hidden
-}
+  .about__p {
+    font-size: 12px;
+    width: 270px;
+    height: 120px;
+    overflow: hidden;
+  }
 
   .info_two h2 {
     width: 200px;
   }
 
   .video .button_play {
-    margin:auto;
+    margin: auto;
   }
 
   .cells {
@@ -1285,20 +1277,20 @@ width: 100px;
     height: auto;
     padding: 0;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr ;
-}
+    grid-template-columns: 1fr 1fr;
+  }
 
-.cell {
-  font-size: 12px;
+  .cell {
+    font-size: 12px;
     line-height: 20px;
     font-weight: 700;
     height: 50px;
-}
+  }
 
-.h2__review{
-  margin: 0 auto;
-  font-size: 15px;
-}
+  .h2__review {
+    margin: 0 auto;
+    font-size: 15px;
+  }
   .screen {
     background: black;
     margin: 25px 30px;
@@ -1308,27 +1300,26 @@ width: 100px;
   .video {
     height: auto;
     flex-direction: column;
-}
+  }
   .table {
     height: auto;
     margin-top: 20px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-   
-}
+  }
 
   .table__element {
     height: auto;
     flex-direction: column;
-}
+  }
 
-.table__element div {
-  margin-bottom: 10px;
-}
+  .table__element div {
+    margin-bottom: 10px;
+  }
 
   .big__image {
     width: 280px;
-}
+  }
 
   .slider h2 {
     font-size: 30px;
@@ -1350,7 +1341,7 @@ width: 100px;
   }
 
   .dark__image__box {
-    width:220px;
+    width: 220px;
   }
   .dark__image {
     width: 200px;
